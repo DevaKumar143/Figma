@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #e3f2fd;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e3fdfe;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+p {
+    text-align: center;
+}
+
+.price {
+    font-weight: 400;
+    color: rgb(8, 110, 253);
+}
+
+.btn {
+    color: black;
+    border: 2px solid black;
+    margin-left: 130px;
+}
+
+.btn:hover {
+    background-color: rgb(21, 174, 212);
+}
+
+.tag {
+    margin-top: 50px;
+}
+
+.tag h1,
+h2 {
+    margin-right: 510px;
+    text-align: center;
+}
+
+.price p {
+    text-decoration-line: line-through;
+    margin-right: 510px;
+    text-align: center;
+    /* display: flex; */
+}
+
+.disc  {
+    margin-right: 510px;
+    text-align: center; 
+    font-weight: 700; 
+    display: flex; 
+    color: red;
+     justify-content: center; 
+    position: relative;
+    font-size: xx-large;
+}
+
+.para p {
+    /* flex-wrap: wrap; */
+    text-wrap: pretty;
+}
+
+.img {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    /* background-color: aqua; */
+    
+}
+
+.last{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 160px;
+    /* margin-bottom: 60px; */
+    /* margin-right: 40px; */
+    background-color: rgb(14, 109, 77);
+}
